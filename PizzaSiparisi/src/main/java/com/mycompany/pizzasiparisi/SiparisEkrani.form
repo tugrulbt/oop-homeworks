@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="btnSepeteEkle" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="chkSucuk" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkMantar" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkZeytin" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkAyran" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkKola" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkPatates" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkSufle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="chkSosis" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkMisir" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkPeynir" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkGazoz" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkHalka" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkSutlac" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="chkFanta" alignment="0" pref="184" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="cmbPizza" alignment="0" max="32767" attributes="0"/>
+                      <Component id="cmbBoyut" alignment="0" max="32767" attributes="0"/>
+                      <Component id="cmbHamur" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jPanel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="100" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lblPizzaResim" min="-2" pref="145" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblToplam" min="-2" pref="150" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btnSiparisiTamamla" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cmbPizza" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cmbBoyut" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cmbHamur" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="lblToplam" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblPizzaResim" alignment="0" min="-2" pref="133" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chkSucuk" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkSosis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chkMantar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkMisir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chkZeytin" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkPeynir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chkAyran" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkGazoz" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="chkKola" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="chkFanta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="chkPatates" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkHalka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="chkSufle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chkSutlac" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btnSepeteEkle" pref="85" max="32767" attributes="0"/>
+                  <Component id="btnSiparisiTamamla" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="cmbPizza">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Pizza Se&#xe7;iniz..."/>
+            <StringItem index="1" value="Extravaganza (+150 TL)"/>
+            <StringItem index="2" value="Kar&#x131;&#x15f;&#x131;k (+130 TL)"/>
+            <StringItem index="3" value="Mexicano (+140 TL)"/>
+            <StringItem index="4" value="&#x130;taliano (+140 TL)"/>
+            <StringItem index="5" value="Turkish Pizza (+160 TL)"/>
+            <StringItem index="6" value="Favorite Three (+140 TL)"/>
+            <StringItem index="7" value="Kendi Pizzan&#x131; Olu&#x15f;tur"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbPizzaActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbBoyut">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Boyut Se&#xe7;iniz..."/>
+            <StringItem index="1" value="K&#xfc;&#xe7;&#xfc;k Boy (1 Ki&#x15f;ilik) - 250 TL"/>
+            <StringItem index="2" value="Orta Boy (2 Ki&#x15f;ilik) - 350 TL"/>
+            <StringItem index="3" value="B&#xfc;y&#xfc;k Boy (3-4 Ki&#x15f;ilik) - 450 TL"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbBoyutActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbHamur">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Hamur Se&#xe7;iniz..."/>
+            <StringItem index="1" value="Klasik Hamur"/>
+            <StringItem index="2" value="&#x130;nce Hamur"/>
+            <StringItem index="3" value="&#x130;ncecik Hamur"/>
+            <StringItem index="4" value="Dublex &#xc7;ift Kat Peynirli (+60 TL)"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbHamurActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSepeteEkle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sepete Ekle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSepeteEkleActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="lstSepet">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lblToplam">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Toplam Tutar: 0.0 TL"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSiparisiTamamla">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sipari&#x15f;i Tamamla"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSiparisiTamamlaActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Temel Se&#xe7;imler">
+              <Font PropertyName="font" name="Times New Roman" size="24" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="155" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Ekstra Malzemeler">
+              <Font PropertyName="font" name="Times New Roman" size="24" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="189" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x130;&#xe7;ecekler ve Yan &#xdc;r&#xfc;nler">
+              <Font PropertyName="font" name="Times New Roman" size="24" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="249" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Sepet &#xd6;zeti">
+              <Font PropertyName="font" name="Times New Roman" size="36" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="172" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JCheckBox" name="chkSucuk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekstra Sucuk (+50 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSosis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekstra Sosis (+40 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkMantar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekstra Mantar (+25 TL)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkMantarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkMisir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekstra M&#x131;s&#x131;r (+20 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkZeytin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekstra Zeytin (+20 TL)"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chkZeytinActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkPeynir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ekstra Peynir (+40 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkAyran">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ayran (+35 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkGazoz">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cam &#x15e;i&#x15f;e Gazoz (+50 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkKola">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kutu Kola (+60 TL)"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkFanta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kutu Portakall&#x131; Gazoz (+60 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkPatates">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="B&#xfc;y&#xfc;k Patates (+100 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkHalka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Halka So&#x11f;an (+70 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSufle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sufle (+130 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="chkSutlac">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="F&#x131;r&#x131;n S&#xfc;tla&#xe7; (+120 TL)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPizzaResim">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sipari&#x15f;leri sepetten &#xe7;&#x131;karmak isterseniz &#xfc;zerine &#xe7;ift t&#x131;klayabilirsiniz."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
